@@ -19,7 +19,7 @@ module.exports = {
 			},
 		});
 	},
-	async onButtonClick(bot, int) {
+	async onButtonClick(int, bot) {
 		const value = int.data.custom_id.split('_')[1];
 		let data = readFileSync(join(process.env.BASE_PATH, 'commands/calculatordata.txt')).toString();
 		let content;
