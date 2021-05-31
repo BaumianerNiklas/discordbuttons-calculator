@@ -2,7 +2,8 @@ const { readdirSync } = require('fs');
 const { join } = require('path');
 
 module.exports = async (bot) => {
-	const guild = bot.guilds.cache.get('123456789012345678'); // Replace with a valid guild id
+	let guildID = '123456789012345678'; // Replace with a valid guild id
+	const guild = bot.guilds.cache.get(guildID);
 	// This is using guild-only slash commands because they update instantly while global slash commands take 1 hour to update
 
 	const commandFiles = readdirSync(join(process.env.BASE_PATH, 'commands')).filter((f) => f.endsWith('.js'));
