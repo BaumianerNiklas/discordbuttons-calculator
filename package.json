@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord.js": "github:discordjs/discord.js",
+    "dotenv": "^9.0.2",
+    "he": "^1.2.0",
+    "mathjs": "^9.4.1"
+  }
+}
