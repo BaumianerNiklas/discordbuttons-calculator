@@ -12,4 +12,4 @@ For the actual math, `mathjs` is used.
 ## The Calculator
 
 The main logic of the calculator is on the `src/commands/calculator.js` file and the `src/bot.js` file.
-Preview: ![preview](preview.mp4)
+[Preview](https://www.reddit.com/r/discordapp/comments/nombq7/i_implemented_a_fully_functioning_calculator/?utm_source=share&utm_medium=web2x&context=3)
