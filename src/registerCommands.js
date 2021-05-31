@@ -40,12 +40,6 @@ module.exports = async (bot) => {
 			const hasSameOptions = JSON.stringify(newCmd.options) === JSON.stringify(exCmd.options);
 			const hasSameDefaultPermission = newCmd.defaultPermission === exCmd.defaultPermission;
 
-			// if (command.name === 'purge') {
-			// 	console.log(hasSameDescription, hasSameDefaultPermission, hasSameOptions);
-			// 	console.log(...newCmd.options);
-			// 	console.log(...exCmd.options);
-			// }
-
 			if (hasSameDescription && hasSameOptions && hasSameDefaultPermission) {
 				console.log(`Skipped ${command.name} - command hasn't changed.`);
 			} else {
