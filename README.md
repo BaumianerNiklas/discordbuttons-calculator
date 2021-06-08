@@ -2,7 +2,15 @@
 
 ## Important Note
 
-This is part of my testing bot, so that's also why the command and event handlers are included. I made the calculator because I liked the idea and not because I wanted it to actually be used by lots of people. So, this uses a VERY hacky approach and is storing the current expression in a textfile. This is not scalable **AT ALL**, especially when multiple servers and users are using it at the same time. Do NOT use this on a bot that's going to be actually used by people.
+This is part of my testing bot, so that's also why the command and event handlers are included. 
+
+After the Message Components PR has been merged into the dev branch of Discord.js, I decided to redo this calculator command. Also changed some little things (especially nicer formatting), but it should work pretty much the same as the former version. This approach is also actually usable, so feel free to implement this into your own bots! For the new version, see `src/commands/calculator.js`. (If you want to use this in your bot you need to install the master branch of Discord.js via `npm i discord.js@dev`.)
+
+---
+### **Everything below this point only applies to the old version, which you should not use anyway.** 
+
+
+I made the calculator because I liked the idea and not because I wanted it to actually be used by lots of people. So, this uses a VERY hacky approach and is storing the current expression in a textfile. This is not scalable **AT ALL**, especially when multiple servers and users are using it at the same time. Do NOT use this on a bot that's going to be actually used by people.
 
 ## Requirements
 
