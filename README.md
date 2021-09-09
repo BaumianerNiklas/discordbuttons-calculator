@@ -1,10 +1,12 @@
 # Fully Functioning Calculator with Discord Message Buttons
 
-## Important Note
+**The code in the new calculator doesn't work anymore.** (The old one should still work, but that shouldn't be used at all anyway, as you can read below)
+The new implementation was made on a development branch of Discord.js, and there has since been some breaking changes that make this command now broken, so this repo has also been archived. However, there's a reworked version (in TypeScript and with a few more features) in my main bot, [which you can check out here!](https://github.com/BaumianerNiklas/Waddle-Bot/blob/rewrite/src/commands/Fun/calculator.ts)
 
+## Note
 This is part of my testing bot, so that's also why the command and event handlers are included. 
 
-After the Message Components PR has been merged into the dev branch of Discord.js, I decided to redo this calculator command. Also changed some little things (especially nicer formatting), but it should work pretty much the same as the former version. This approach is also actually usable, so feel free to implement this into your own bots! For the new version, see `src/commands/calculator.js`. (If you want to use this in your bot you need to install the master branch of Discord.js via `npm i discord.js@dev`.)
+After the Message Components PR has been merged into the dev branch of Discord.js, I decided to redo this calculator command. Also changed some little things (especially nicer formatting), but it should work pretty much the same as the former version. This approach is also actually usable, so feel free to implement this into your own bots! For the new version, see `src/commands/calculator-new.js`. (If you want to use this in your bot you need to install the master branch of Discord.js via `npm i discord.js@dev`.)
 
 ---
 ### **Everything below this point only applies to the old version, which you should not use anyway.** 
