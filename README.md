@@ -1,7 +1,7 @@
 # Fully Functioning Calculator with Discord Message Buttons
 
 **The code in the new calculator doesn't work anymore.** (The old one should still work, but that shouldn't be used at all anyway, as you can read below)
-The new implementation was made on a development branch of Discord.js, and there has since been some breaking changes that make this command now broken, so this repo has also been archived. However, there's a reworked version (in TypeScript and with a few more features) in my main bot, [which you can check out here!](https://github.com/BaumianerNiklas/Waddle-Bot/blob/rewrite/src/commands/Fun/calculator.ts)
+The new implementation was made on a development branch of Discord.js, and there has since been some breaking changes that make this command now broken, so this repo has also been archived. However, there's a reworked version (in TypeScript and with a few more features) in my main bot, [which you can check out here!](https://github.com/BaumianerNiklas/Waddle-Bot/blob/main/src/commands/Fun/calculator.ts)
 
 ## Note
 This is part of my testing bot, so that's also why the command and event handlers are included. 
